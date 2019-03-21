@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main(void) {
+	int primeiroNumero;
+	int segundoNumero;
+	int soma;
+	int resultado;
+	scanf("%d",&primeiroNumero);
+	scanf("%d",&segundoNumero);
+	soma=primeiroNumero+segundoNumero;
+	resultado=soma/2;
+	printf("%d",resultado);
+	return 0;
+}
